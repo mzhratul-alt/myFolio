@@ -349,9 +349,16 @@ ul {
 #myWork .allWork .workItem .workDetails h3 {
    font-size: 16px;
    font-weight: 800;
+   color: #fff;
    line-height: 23px;
+   -webkit-transition: all linear .3s;
+   -o-transition: all linear .3s;
+   transition: all linear .3s;
 }
 
+#myWork .allWork .workItem .workDetails h3:hover{
+   color: #cfc91d;
+}
 #myWork .allWork .workItem .workDetails p {
    font-size: 13px;
    line-height: 21px;
