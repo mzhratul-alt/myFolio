@@ -378,8 +378,11 @@ ul {
    background: none;
    border-bottom: 1px solid #898989;
    padding: 40px 30px 10px;
+   transition: linear .3s;
 }
-
+#contact .contactForm form .inputField:focus{
+   border-bottom: 1px solid #02918c;
+}
 #contact .contactForm input.inputField {
    width: 70%;
    margin: 0 auto;
