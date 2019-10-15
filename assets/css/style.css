@@ -183,7 +183,7 @@ ul {
 
 /* About Section CSS Start */
 #about {
-   margin: 80px 0 100px;
+   margin: 80px 0 60px;
    text-align: center;
 }
 
@@ -191,9 +191,11 @@ ul {
    width: 25%;
    border-right: 2px solid #5e6767;
    padding: 35px 62px 55px;
+   margin-bottom: 40px;
 }
 
-#about .aboutBox:last-child {
+#about .aboutBox:nth-child(4n),
+#about .aboutBox:last-child{
    border: none;
 }
 
@@ -440,4 +442,4 @@ ul {
    text-align: center;
 }
 
-/* /About Section CSS End */
+/* /Footer Section CSS End */
